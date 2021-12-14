@@ -11,3 +11,7 @@ PoC de demonstração do uso do FastAPI. FastAPI é um moderno e rápido (alta p
 * post('/users')
 * patch('/users/{user_id}')
 * delete('/users/{user_id}')
+
+## Utilização
+
+uvicorn main:app --reload
